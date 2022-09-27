@@ -10,19 +10,19 @@ body{
     font-family: 'Poppins', sans-serif;
 }
  
-/* -----------------------
-        Banner style
------------------------- */
-header .container{
+/* ------------------------------
+        Banner section style
+--------------------------------- */
+header .banner-container{
     display: flex;
     max-width: 1440px;
-    margin: auto;
+    margin: 50px auto;
     background: #161616;
     color: #fff;
     justify-content: center;
     border-radius: 30px;
 }
-.container .banner-item{
+header .banner-container .banner-item{
     width: 50%;
     margin-left: 1rem;
 }
@@ -32,9 +32,6 @@ header .container{
 }
 .banner-txt h1{
     font-size: 3rem;
-}
-.banner-txt p{
-
 }
 .banner-txt a{
     display: inline-block;
@@ -48,3 +45,83 @@ header .container{
     border-radius: 5px;
 }
 
+/* ------------------------------
+        Main section style
+------------------------------- */
+.main-container{
+    display: flex;
+
+}
+
+/* nav style */
+.main-container nav{
+    display: flex;
+    flex-direction: column;
+    background: #161616;
+    height: 312px;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-right: 24px;
+    padding: 0 30px;
+}
+nav a{
+    text-decoration: none;
+    padding: 1rem 0;
+    background: #fff;
+    color: #000;
+    font-size: 1.25rem;
+    font-weight:500;
+    width: 252px;
+    text-align: center;
+    border-radius: 10px;
+}
+nav a.viewing{
+    background: #DD0000;
+    color: #fff;
+    font-weight: 600;
+}
+
+/* article style */
+.content{
+    display: grid;
+    grid-template-columns: repeat(3,280px);
+    gap: 1rem;
+}
+article{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #E8E8E8;
+    border-radius: 10px;
+}
+article img{
+    width: 100%;
+}
+article a{
+    width: 65px;
+    text-decoration: none;
+    border: 1px solid #161616;
+    border-radius: 5px;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    padding: 0 1rem;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #161616;
+}
+article h4{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+article div i{
+    margin-left: 1rem;
+}
+article div span{
+    color: #161616b3;
+}
+/* 
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: lightblue;
+    }
+} */
