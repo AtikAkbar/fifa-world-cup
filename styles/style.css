@@ -15,7 +15,7 @@ body{
 --------------------------------- */
 header .banner-container{
     display: flex;
-    width: 1280px;
+    width: 1200px;
     margin: 50px auto;
     background: #161616;
     color: #fff;
@@ -50,7 +50,7 @@ header .banner-container .banner-item{
 ------------------------------- */
 .main-container{
     display: flex;
-    width: 1280px;
+    width: 1200px;
     margin: auto;
 }
 
@@ -64,7 +64,7 @@ header .banner-container .banner-item{
     align-items: center;
     justify-content: space-evenly;
     margin-right: 24px;
-    padding: 0 30px;
+    padding: 0 2rem;
 }
 nav a{
     text-decoration: none;
@@ -135,7 +135,7 @@ article div span{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    width: 295px;
+    width: 270px;
 }
 .flags span{
     font-size: 1rem;
@@ -172,10 +172,8 @@ footer hr{
     border-color: #FFFFFF1A;
 }
 .footer-links{
-    /* width: 80%; */
     display: flex;
     justify-content: space-evenly;
-    /* text-align: center; */
     align-items: center;
 }
 footer a{
