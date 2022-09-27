@@ -1,0 +1,50 @@
+/* -------------------
+        Fonts
+---------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Roboto:wght@400;500&display=swap');
+
+/* ----------------------
+        Base Styles
+------------------------*/
+body{
+    font-family: 'Poppins', sans-serif;
+}
+ 
+/* -----------------------
+        Banner style
+------------------------ */
+header .container{
+    display: flex;
+    max-width: 1440px;
+    margin: auto;
+    background: #161616;
+    color: #fff;
+    justify-content: center;
+    border-radius: 30px;
+}
+.container .banner-item{
+    width: 50%;
+    margin-left: 1rem;
+}
+.banner-txt{
+    /* margin: 50px 100px; */
+    align-self: center;
+}
+.banner-txt h1{
+    font-size: 3rem;
+}
+.banner-txt p{
+
+}
+.banner-txt a{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    background: #DD0000;
+    margin-top: 30px;
+    padding: 16px 25px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 5px;
+}
+
