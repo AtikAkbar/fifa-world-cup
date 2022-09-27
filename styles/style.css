@@ -182,9 +182,33 @@ footer a{
     font-size: 1rem;
     font-weight: 500;
 }
-/* 
-@media only screen and (max-width: 600px) {
-    body {
-        background-color: lightblue;
+
+/* ---------------------------
+        @@ Media Query @@
+---------------------------- */
+/* mobile */
+@media only screen and (max-width: 576px) {
+    header{
+        display: none;
     }
-} */
+    main{
+        display: none;
+    }
+    .footer-links{
+        flex-direction: column;
+        gap: 2rem;
+    }
+}
+
+/* tablet or small laptop */
+@media (min-width: 577px) and (max-width: 1199px) {
+    header {
+            display: none;
+        }
+    main {
+            display: none;
+        }
+    .footer-links {
+        /* flex-wrap: wrap; */
+    }
+}
