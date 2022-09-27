@@ -1,6 +1,6 @@
-/* -------------------
-        Fonts
----------------------*/
+/* -----------------------
+        Google Font
+-------------------------*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Roboto:wght@400;500&display=swap');
 
 /* ----------------------
@@ -15,7 +15,7 @@ body{
 --------------------------------- */
 header .banner-container{
     display: flex;
-    max-width: 1440px;
+    width: 1280px;
     margin: 50px auto;
     background: #161616;
     color: #fff;
@@ -50,7 +50,8 @@ header .banner-container .banner-item{
 ------------------------------- */
 .main-container{
     display: flex;
-
+    width: 1280px;
+    margin: auto;
 }
 
 /* nav style */
@@ -85,7 +86,7 @@ nav a.viewing{
 /* article style */
 .content{
     display: grid;
-    grid-template-columns: repeat(3,280px);
+    grid-template-columns: repeat(3,1fr);
     gap: 1rem;
 }
 article{
@@ -118,6 +119,40 @@ article div i{
 }
 article div span{
     color: #161616b3;
+}
+
+/* match-time style */
+.match-time{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding:50px 0 50px ;
+    border: 1px solid #E8E8E8;
+    border-radius: 10px;
+    /* height: 200px; */
+}
+.flags{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 295px;
+}
+.flags span{
+    font-size: 1rem;
+    font-weight: 700;
+}
+.match-details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.match-details h4{
+    font-size: 20px;
+    margin: 20px 0 10px 0;
+}
+.match-details p{
+    margin: 0;
 }
 /* 
 @media only screen and (max-width: 600px) {
