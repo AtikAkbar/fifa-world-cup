@@ -215,10 +215,12 @@ footer a{
     .main-container nav{
         margin: auto;
         background: #fff;
-        
     }
     nav a{
         border: 1px solid #E8E8E8;
+    }
+    .content{
+        grid-template-columns: repeat(1, 1fr);
     }
     .footer-links{
         flex-direction: column;
