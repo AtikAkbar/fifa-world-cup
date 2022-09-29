@@ -193,9 +193,7 @@ footer a{
 /* mobile */
 @media only screen and (max-width: 576px) {
     header .banner-container{
-        /* display: none; */
         flex-direction: column;
-
         width: auto;
         text-align: center;
         gap: 1rem;
@@ -204,8 +202,23 @@ footer a{
         width: 90%;
         margin: auto;
     }
-    main{
-        display: none;
+    .banner-txt p {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    .main-container{
+        flex-direction: column;
+        width: auto;
+        align-items: center;
+    }
+    .main-container nav{
+        margin: auto;
+        background: #fff;
+        
+    }
+    nav a{
+        border: 1px solid #E8E8E8;
     }
     .footer-links{
         flex-direction: column;
@@ -214,13 +227,18 @@ footer a{
 
 /* tablet or small laptop */
 @media (min-width: 577px) and (max-width: 1199px) {
-    header {
-            display: none;
-        }
-        main {
+    header .banner-container {
             /* display: none; */
+            width: auto;
+            margin: auto;
         }
-        .view-button{
-            display: inline-block;
-        }
+    .banner-txt h1 {
+        font-size: 2.5rem;
+    }
+    main {
+        display: none;
+    }
+    .view-button{
+        display: inline-block;
+    }
     }
