@@ -169,6 +169,16 @@ footer h2{
     font-size: 2rem;
     text-align: center;
 }
+footer .icons{
+    text-align: center;
+}
+.fa-brands{
+    font-size: 1.25rem;
+}
+.fa-brands:hover{
+    color: #fff;
+    
+}
 footer hr{
     width: 80%;
     border-color: #FFFFFF1A;
