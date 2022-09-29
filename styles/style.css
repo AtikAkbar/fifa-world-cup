@@ -44,6 +44,9 @@ header .banner-container .banner-item{
     font-family: 'Roboto', sans-serif;
     border-radius: 5px;
 }
+.banner-txt a:hover{
+    transform: scale(1.125);
+}
 
 /* ------------------------------
         Main section style
@@ -208,10 +211,14 @@ footer a{
         width: auto;
         text-align: center;
         gap: 1rem;
+        margin-bottom: 0;
     }
     header .banner-container .banner-item {
         width: 90%;
         margin: auto;
+    }
+    .banner-item h1{
+        font-size: 2rem;
     }
     .banner-txt p {
         white-space: nowrap;
@@ -233,6 +240,9 @@ footer a{
     .content{
         grid-template-columns: repeat(1, 1fr);
     }
+    footer h2{
+        font-size: 1.5rem;
+    }
     .footer-links{
         flex-direction: column;
     }
@@ -245,7 +255,7 @@ footer a{
         margin: auto;
     }
     .banner-txt h1 {
-        font-size: 2.5rem;
+        font-size: 2rem;
     }
     .banner-txt a{
         margin: 0 0 10px;
@@ -283,5 +293,8 @@ footer a{
         font-weight: 500;
         font-family: 'Roboto', sans-serif;
         border-radius: 5px;
+    }
+    footer h2 {
+        font-size: 1.5rem;
     }
 }
